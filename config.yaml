@@ -1,0 +1,60 @@
+baseURL: http://wponion.com/
+languageCode: en-us
+title: WPOnion
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+    # Logo (from static/images/logos/___)
+    image: logos/icon-256x256.jpg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Lightweight, Flexible & Rapid WP Development Framework.
+    # Hero subtitle (optional)
+    subtitle: Is a simple yet powerful framework that helps developers build custom meta boxes , custom fields and much more in WordPress fast and easily
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "https://docs.wponion.com"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    #- systek
+    #- tribe
+    #- kromo
+    #- infinite
+    #- gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+    - title: Docs
+      url: https://docs.wponion.com
+    - title: Demo
+      url: https://demo.wponion.com
+    - title: Download
+      url: https://github.com/wponion/wponion
+      button: true
+
+  section1:
+    title: Great power comes
+    subtitle: with great responsibility
+    tiles:
+      - title: 100% FREE and OpenSource
+        icon: mouse-globe
+        text: No PRO version. its free and licensed under the MIT..
+        url: https://github.com/wponion/wponion
+        buttonText: Download Now
+      - title: Modules & Fields
+        icon: laptop-cloud
+        text: 25+ Modules & 50+ Fields Types. More To Come
+        url: https://docs.wponion.com
+        buttonText: Get started
+      - title: Integrations
+        icon: plug-cloud
+        text: Visual Composer, Elementor & WooCommerce
+        url: https://docs.wponion.com
+        buttonText: Get started
