@@ -2,6 +2,7 @@ baseURL: http://wponion.com/
 languageCode: en-us
 title: WPOnion
 theme: hugo-fresh
+publishDir: "docs"
 
 params:
   navbarlogo:
